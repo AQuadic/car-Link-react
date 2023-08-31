@@ -2,9 +2,7 @@
 import './App.css';
 import data from './jsonData.json'
 function App() {
-  console.log('====================================');
-  console.log(data);
-  console.log('====================================');
+  
   return (
    
     <main className="App">
