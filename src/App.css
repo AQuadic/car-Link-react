@@ -1,38 +1,222 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-thumb {
+  background: linear-gradient(82deg, #c53c24, #da0d1c);
+  border-radius: 30px;
+}
+html::-webkit-scrollbar-track {
+  background-color: transparent;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*start style*/
+body {
+ 
+  padding: 0px !important;
+  background-image: url("../public//images/backImage.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main {
+  padding-bottom: 26px;
+  width: 430px;
+  margin: auto;
+  max-width: 100%;
+}
+.head {
+  position: relative;
+  margin-bottom: 14px;
+}
+.head h1 {
+  color: #FF9CA3;
+  font-size: 14px;
+  font-weight: 500;
+  width: max-content;
+  font-weight: 500;
+  border-radius: 0px 0px 16px 16px;
+  background: #da0d1b21;
+  padding: 5px 13px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.head .headImage {
+  width: 430px;
+  height: 240px;
+  max-width: 100%;
+}
+.head .headImage img {
+  width: 100%;
+  height: 100%;
+}
+.head .centerContent{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.head .centerContent img{
+  
+  display: block;
+  margin: 0px auto 12px;
+}
+.head .centerContent p{
+  color: #FFF;
+font-size: 15px;
+font-weight: 500;
+text-align: center;
+}
+.allCars {
+}
+
+
+.allCars .cars {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 22px;
+}
+.allCars .cars .car {
+  border-radius: 12px;
+  background: #0e0f1085;
+  box-shadow: 2px 4px 8px 0px rgba(173, 173, 173, 0.16) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 22px 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 13px;
+  width: 380px;
+  max-width: 96%;
+  cursor: pointer;
+  flex-direction: column;
+}
+.allCars .cars .car .part1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.allCars .cars .car  .imageCar {
+  margin: auto;
+}
+.allCars .cars .car  .imageCar img {
+ 
+}
+.allCars .cars .car .carLinks {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  gap: 26px;
+}
+.allCars .cars .car  .carLinks a {
+  width: 30px;
+  height: 30px;
+}
+.allCars .cars .car  .carLinks a img {
+  width: 100%;
+  height: 100%;
+}
+.allCars .cars .car .part2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 11px;
+}
+.allCars .cars .car .part2 .part {
+  align-items: center;
+  display: flex;
+  border-radius: 8px;
+}
+.allCars .cars .car .part2 .part.whatsApp{
+  background: #06993D;
+  gap: 16px;
+  width: 160px;
+  padding: 4px 0px 4px 12px;
+}
+.allCars .cars .car .part2 .part.call{
+  background: #1877F2;
+  padding: 4px 16px 4px 12px;
+
+gap: 16px;
+
+}
+.allCars .cars .car .part2 .part.map{
+  width: 32px;
+height: 32px;
+background: #44C868;
+justify-content: center;
+}
+.allCars .cars .car .part2 .part.map img{
+  width: 26px;
+height: 26px;
+}
+.allCars .cars .car .part2 .part img {
+  max-height: 90%;
+}
+.allCars .cars .car .part2 .part p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.5px;
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 430px) {
+  .allCars .cars .car .part2 .part p {
+    font-size: 14px;
+  }
+  .allCars .cars .car  .carLinks {
+    gap: 20px;
+  }
+  
+  .allCars .cars .car .part2 .part.whatsApp {
+  
+    gap: 6px;
+    width: 130px;
+   
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.allCars .cars .car .part2 .part.call {
+ 
+  padding: 4px 10px 4px 10px;
+  gap: 10px;
+}
+.allCars .cars .car .part2 {
+ 
+  gap: 8px;
+}
+}
+/*end style*/
+.modal-dialog {
+  max-width: 400px;
+  margin: 1.75rem auto;
+}
+.btn-close {
+  position: absolute;
+  top: 6px;
+  right: 6px;
 }

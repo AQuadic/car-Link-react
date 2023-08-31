@@ -1,0 +1,63 @@
+ [
+    
+    {
+      
+    "name": "Company Name",
+    "logo": "./images/car1.svg",
+    "links": {
+      "insta": "https://www.instagram.com/example",
+      "facebook": null,
+      "tiktok": null
+    },
+    "contact": {
+      "whatsapp": "+1234567890",
+      "call": "+9876543210",
+      "map": "https://www.example.com/map"
+    }
+  },
+  {
+    "name": "Company Name",
+    "logo": "./images/car2.svg",
+    "links": {
+      "insta": "https://www.instagram.com/example",
+      "facebook": null,
+      "tiktok": "https://www.tiktok.com/@example"
+    },
+    "contact": {
+      "whatsapp": "+1234567890",
+      "call": "+9876543210",
+      "map": "https://www.example.com/map"
+    }
+  },
+  {
+    "name": "Company Name",
+    "logo": "./images/car3.svg",
+    "links": {
+      "insta": "https://www.instagram.com/example",
+      "facebook": "https://www.facebook.com/example",
+      "tiktok": null
+    },
+    "contact": {
+      "whatsapp": "+1234567890",
+      "call": "+9876543210",
+      "map": "https://www.example.com/map"
+    }
+  },
+  {
+    "name": "Company Name",
+    "logo": "./images/car4.svg",
+    "links": {
+      "insta": "https://www.instagram.com/example",
+      "facebook": null,
+      "tiktok": "https://www.tiktok.com/@example"
+    },
+    "contact": {
+      "whatsapp": "+1234567890",
+      "call": "+9876543210",
+      "map": "https://www.example.com/map"
+    }
+  }
+
+
+
+]
